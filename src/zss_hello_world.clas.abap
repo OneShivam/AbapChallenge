@@ -15,11 +15,12 @@ CLASS zss_hello_world IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
     out->write(
       EXPORTING
-        data   =  |Hello World from the cloud|
+        data   =  |Hello World from the cloud!|
 *        name   =
 *      RECEIVING
 *        output =
     ).
+
   ENDMETHOD.
 
 ENDCLASS.
